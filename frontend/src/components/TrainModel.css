@@ -1,0 +1,15 @@
+.class-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.class-item {
+  display: flex;
+  align-items: center;
+}
+
+.class-item input {
+  margin-right: 5px;
+}
